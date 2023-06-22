@@ -1,0 +1,112 @@
+.tab-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .tab-header {
+    display: flex;
+  }
+  
+  .tab-button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  .tab-button.active {
+    background-color: #f9f9f9;
+  }
+  
+  .tab-panel {
+    display: none;
+  }
+  
+  .tab-panel.active {
+    display: block;
+  }
+
+  .ganti-WA {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.ganti-WA input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 300px;
+}
+
+.input-pass {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.input-pass input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 300px;
+}
+
+.new-pass {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.new-pass input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 300px;
+}
+
+.konfirmasi-pass {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.konfirmasi-pass input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 300px;
+}
+
+.old-pass {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.old-pass input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 300px;
+}
+  
+  /* Additional styles for form elements, e.g., input fields, labels, etc. */
+  

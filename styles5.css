@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    margin: 10px 0;
+    gap: 50px;
+}
+
+.back {
+    font-size: 30px;
+} 
+
+.container {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    background-color: #FBF9F9;
+    /* background-color: aqua; */
+} 
+
+.card {
+    float: left;
+    width: 25%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* width: 100%;  */
+    border: 1px solid #B9B9B9;
+    border-radius: 5px;
+}
+
+.container .card .member-image { 
+    margin: 30px;
+    background-image: url(images/Loid.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.container .card a {
+    text-decoration: none;
+    text-align: center;
+    margin: 30px;
+    padding: 10px 20px;
+    background-color: #FFC351;
+    color: black;
+    border-radius: 5px;
+    transition: background-color 0.1s ease;
+}
+
+.container .card a:hover {
+    color: #333;
+}
+
+.container .card .member-image #btn a:hover {
+    color: #333;
+}
+
+.card-content {
+    /* margin: 50px; */
+    float: right;
+    width: 60%;
+    /* border: 3px solid #B9B9B9; */
+}
+
+.card-content h2 {
+    text-align: center;
+}
+
+.card-content .spesialisasi {
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}    
+
+.card-content .spesialisasi li {
+    background-color: #B8E1FF;
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+.card-content .spesialisasi-2 {
+    margin: 10px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    list-style: none;
+}    
+.card-content .spesialisasi-2 li {
+    background-color: #B8E1FF;
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+.deskripsi {
+    padding: 20px 40px;
+    border: 3px solid #333;
+    border-radius: 5px;
+}
+
+.deskripsi ul b {
+    position: relative;
+    bottom: 5px;
+}
+
+.profile {
+    /* align-items: center; */
+    padding: 50px 50px;
+    border: 3px solid #333;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(74, 74, 74, 0.3);   
+}
+
+.navbar {
+    display: flex;
+    margin: 10px 0;
+    gap: 50px;
+}
+
+.back {
+    margin-left: 5%;
+    font-size: 30px;
+}
+
+a {
+    color: #333;
+}
+a:hover{
+    color:rgb(251, 180, 0);
+}
+
+nav {
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 80px;
+    align-items: center;
+}
+
+.navbar .search-box {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.navbar .search-box input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 300px;
+}
+
+.navbar .search-box input[type="submit"] {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+#back {
+    font-size: 30px;
+}
+
+.member-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.member-card {
+    display: flex;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.member-image {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(images/Anya.jpg);
+    background-size: cover;
+}
+.member-image-2 {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(images/Loid.jpg);    
+    background-size: cover;
+}
+.member-image-3 {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(images/Yor.jpg);
+    background-size: cover;
+}
+.member-image-4 {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(images/Saitama.jpg);
+    background-size: cover;
+}
+
+.member-details {
+    flex-grow: 1;
+}
+
+.member-name {
+    font-weight: bold;
+}
+
+/* .list {
+    text-decoration: none;
+} */
+
+p {
+    background-color: #B8E1FF;
+    border-radius: 5px;
+}
+
+.list {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* .container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    text-align: center;
+    border: 3px solid grey;
+} */
+
+/* .container-2 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    text-align: center;
+    border: 3px solid grey;
+} */
+
+/* .card {
+    display: flex;
+    border: 3px solid black;
+}
+
+.list {
+    display: inline-block;
+} */
+

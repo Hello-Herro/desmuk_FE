@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="edit_profile.css">
+    <title>Edit Profile</title>
+</head>
+<body>
+    <div class="tab-container">
+        <div class="tab-header">
+          <button class="tab-button active" data-tab="login-tab">Login</button>
+          <button class="tab-button" data-tab="register-tab">Register</button>
+        </div>
+        <div class="tab-content">
+          <div id="login-tab" class="tab-panel active">
+              <div class="ganti-WA" class="tab-panel active">
+                <h4>Whatsapp</h4>
+                <input type="text" name="name" placeholder="Nomer Whatsapp" required>
+              </div>
+              <div class="input-pass">
+                <h4>Password</h4>
+                <input type="text" name="name" placeholder="Masukkan Password" required>
+              </div>
+              <div class="tombol">
+                <a href="#">reset</a>
+                <a href="index.html">save</a>
+              </div>
+          </div>
+        <div id="register-tab" class="tab-panel">
+            <div class="new-pass" >
+              <h4>Password Baru</h4>
+              <input type="text" name="name" placeholder="Masukkan Password Baru" required>
+            </div>
+            <div class="konfirmasi-pass">
+              <h4>Konfirmasi</h4>
+              <input type="text" name="name" placeholder="Masukkan Ulang" required>
+            </div>
+            <div class="old-pass">
+              <h4>Password Lama</h4>
+              <input type="text" name="name" placeholder="Masukan Password Lama" required>
+            </div>
+            <div class="tombol">
+              <a href="#">reset</a>
+              <a href="index.html">save</a>
+            </div>
+        </div>
+    </div>
+    
+      <script src="script4.js"></script>
+</body>
+</html>

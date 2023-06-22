@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selfloved.id - Your Voice Matters</title>
+    <script src="https://kit.fontawesome.com/fece900040.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="landing_pages.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="halaman_login.html"><img src="images/Logo-4.png" alt="Company logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#layanan">Layanan</a></li>
+                <li><a href="#Psikolog">Psikolog</a></li>
+                <li><a href="#tentang_kami">Tentang Kami</a></li>
+                <li><a href="#panduan">Panduan</a></li>
+                <li><a href="#testimoni">Testimoni</a></li>
+                <li><a href="#" id="user"><i class="fa-regular fa-circle-user" onclick="toggleMenu()"></i></a></li>
+            </ul>
+
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <i class="fa-regular fa-circle-user" style="color: black;"></i>
+                        <h4>Username</h4>
+                    </div>
+                    <hr>
+
+                    <div class="sub-menu-link">
+                        <a id="SingUp" href="halaman_login.html">Sing Up</a>
+                        <a id="SingIn" href="halaman_login.html">Sing In</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-toggle">
+                <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+    </header>
+    <div class="hero">
+        <div class="imghero">
+            <img src="images/background.jpg">
+        </div>
+        <div class="hero-2">
+            <h1>Your Voice Matters</h1>
+            <p>Mari berkonsultasi. Deskripsikan Isi Hati.</p>
+            <a href="jadwal_konsultasi.html" id="btn-2">Jadwalkan Konsultasi</a>
+        </div>
+    </div>
+
+    <!-- Service Flexbox section -->
+    <section id="layanan">
+        <div class="container">
+            <h1><b>Layanan Konsultasi</b></h1>
+            <div class="container-2">
+                <div class="card">
+                    <div class="header">
+                        <!-- <img src="images/Offline.jpg" alt="offline">            -->
+                    </div>
+                        <div class="content">
+                            <h3><b>Konsultasi Offline</b></h3>
+                                <h5>Gubeng, Surabaya</h5>
+                                    <p>~ Ruang konsultasi yang nyaman.</br>
+                                   ~ Langsung bertemu tatap muka dengan psikolog.</br> 
+                                   ~ Privasi dijamin 100% aman.</br> 
+                                   ~ Bisa melakukan test assesment & psikoterapi.</br> 
+                                    </p>
+                                    <button>IDR 399.000/Sesi</button>
+                        </div>
+                </div>
+                <div class="card">
+                    <div class="header-dua">
+                        <!-- <img src="images/Online.jpg" alt="Online"> -->
+                    </div>
+                        <div class="content">
+                            <h3><b>Konsultasi Online</b></h3>
+                                <h5>Via Whatsapp atau Zoom</h5>
+                                    <p>~ Biaya lebih hemat.</br>
+                                   ~ Waktu dan tempat yang fleksibel.</br> 
+                                   ~ Privasi dijamin 100% aman.</br> 
+                                   ~ Bisa memilih untuk konseling via voice atau video call.</br> 
+                                    </p>
+                                    <button>IDR 249.000/Sesi</button>
+                        </div>
+                </div>
+            </div>
+          
+        </div>         
+    </section>
+
+    
+    <!-- Profil Flexbox section -->
+    <section id="Psikolog">
+        <div class="container">
+            <h2>Profil Psikolog</h2>
+            <div class="container-3">
+                <div class="card">
+                    <div class="header-tiga">
+                        <!-- <img src="images/Offline.jpg" alt="offline">            -->
+                    </div>
+                        <div class="content">
+                                <h4>Yor Forger, M. Psi., Psikolog</h4>
+                                    <p>
+                                     ~ Hubungan Interpersonal.</br>
+                                    ~ Kecemasan.</br> 
+                                    ~ Pengembangan Diri.</br>  
+                                    </p>
+                                    <button><a href="profil_yor.html">Profil Lengkap</a></button>
+                        </div>
+                </div>
+                <div class="card">
+                    <div class="header-empat">
+                        <!-- <img src="images/Online.jpg" alt="Online"> -->
+                    </div>
+                        <div class="content">
+                                <h4>Loid Forger, M.Psi., Psikolog</h4>
+                                    <p>
+                                    ~ Relationship.</br>
+                                    ~ Parenting.</br> 
+                                    ~ Kecemasan.</br> 
+                                    </p>
+                                    <button><a href="profil_loid.html">Profil Lengkap</a></button>
+                        </div>
+                </div>
+                <div class="card">
+                    <div class="header-lima">
+                        <!-- <img src="images/Online.jpg" alt="Online"> -->
+                    </div>
+                        <div class="content">
+                                <h4>Anya Forger, M.Psi., Psikolog</h4>
+                                    <p>
+                                    ~ Relationship.</br>
+                                    ~ Anxiety.</br> 
+                                    ~ Self Development.</br> 
+                                    </p>
+                                    <button><a href="profil_anya.html">Profil Lengkap</a></button>
+                        </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <!-- About Flexbox section -->
+    <section id="tentang_kami">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <div class="container-4">
+                <div class="card">
+                    <div class="header-enam">
+                        <!-- <img src="images/Offline.jpg" alt="offline">            -->
+                    </div>
+                        <div class="content">
+                                <h4>Alan Bagus Prayogo, S. Tr.</h4>
+                                    <p>Kelompok 8</p>
+                                    <!-- <button>Profil Lengkap</button> -->
+                        </div>
+                </div>
+                <div class="card">
+                    <div class="header-tujuh">
+                        <!-- <img src="images/Online.jpg" alt="Online"> -->
+                    </div>
+                        <div class="content">
+                                <h4>Raghib Abdien Bahtiar, S. Tr.</h4>
+                                    <p>Kelompok 8</p>
+                                    <!-- <button>Profil Lengkap</button> -->
+                        </div>
+                </div>
+                <div class="card">
+                    <div class="header-delapan">
+                        <!-- <img src="images/Online.jpg" alt="Online"> -->
+                    </div>
+                        <div class="content">
+                                <h4>Tengku Rafli Izdiharudin, S. Tr.</h4>
+                                    <p>Kelompok 8</p>
+                                    <!-- <button>Profil Lengkap</button> -->
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- Panduan Flexbox section -->
+    <section id="panduan">
+        <div class="container">
+            <h2>Langkah-langkah untuk Konsultasi</h2>
+            <!-- <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form> -->
+            <div class="container-3">
+                <div class="card">
+                    <div class="header-sembilan">
+                        <!-- <img src="images/Offline.jpg" alt="offline">            -->
+                    </div>
+                        <div class="content">
+                                <h3>Pahami masalahmu & pilih Psikolog</h3>
+                                    <p>sadari masalah utama yang kamu hadapi saat ini & pilih psikolog dengan spesialisasi yang sesuai dengan masalahmu.</p>
+                                    <!-- <button>Profil Lengkap</button> -->
+                        </div>
+                </div>
+                <div class="card">
+                    <div class="header-sepuluh">
+                        <!-- <img src="images/Online.jpg" alt="Online"> -->
+                    </div>
+                        <div class="content">
+                                <h3>Ajukan konsultasi & atur jadwalnya</h3>
+                                    <p>Ajukan Konsultasi & atur jadwalnya sesuaikan dengan waktu yang cocok.</p>
+                                    <!-- <button>Profil Lengkap</button> -->
+                        </div>
+                </div>
+                <div class="card">
+                    <div class="header-sebelas">
+                        <!-- <img src="images/Online.jpg" alt="Online"> -->
+                    </div>
+                        <div class="content">
+                                <h3>Lakukan pembayaran sesuai waktu yang ditentukan</h3>
+                                    <p>Lakukan pembayaran pada page pembayaran & ikuti panduan psikolog dari awal hingga akhir.</p>
+                                    <!-- <button>Profil Lengkap</button> -->
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials section -->
+    <section id="testimoni">
+        <div class="container">
+            <h2>Testimoni</h2>
+            <div class="testimonial">
+                <img src="images/bintang 5.png" alt="Testimonial 1">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus ligula quis augue vol
+                utpat, at interdum nisi ultrices."</p>
+                <h4>John Doe</h4>
+            </div>
+            <div class="testimonial">
+                <img src="images/bintang 4 set.png" alt="Testimonial 2">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus ligula quis augue volutpat, at interdum nisi ultrices."</p>
+                <h4>Jane Smith</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- <div onclick="scrollToTop" class="scrolltop">Top</div> -->
+    <!-- <i class="fa-regular fa-circle-chevron-up"></i> -->
+
+    
+    <!-- Scroll-Up Section -->
+    <a href="#" class="toTop">
+        <button id="toTop" class="up-arrow">UP</button>
+    </a>
+
+
+    <!-- Footer section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 SelfLoved.id. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="#"><img src="images/facebook.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="images/twitter.png" alt="Twitter"></a></li>
+                <li><a href="#"><img src="images/instagram.png" alt="Instagram"></a></li>
+            </ul>
+        </div>
+        
+        
+        <!-- <script>
+            function scrollToTop(){
+            window.scrollToTop(0, 0);
+            }
+        </script> -->
+    </footer>
+
+    <script src="script3.js"></script>
+    <script>
+         let subMenu = document.getElementById('subMenu');
+
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+    </script>
+  
+</body>
+</html>
